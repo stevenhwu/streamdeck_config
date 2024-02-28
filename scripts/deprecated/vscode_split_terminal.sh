@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+# less /usr/include/linux/input-event-codes.h
 #
 # ctrl+shift+5
 #

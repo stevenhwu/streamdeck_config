@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-#
+# less /usr/include/linux/input-event-codes.h
 # ctrl+k ctrl+f
 #
 #define KEY_LEFTCTRL        29

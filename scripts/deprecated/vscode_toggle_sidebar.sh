@@ -1,12 +1,12 @@
 #!/usr/bin/bash
 # less /usr/include/linux/input-event-codes.h
-# ctrl+shift+i
-# xdotool key ctrl+shift+i
+#
+# ctrl+b
 #
 #define KEY_LEFTCTRL        29
 #define KEY_LEFTSHIFT       42
 #define KEY_LEFTALT         56
-#define KEY_G               34 (i)
+#define KEY_N               49 (b)
 
 
-YDOTOOL_SOCKET='/tmp/.ydotool_socket'  ydotool key 29:1 42:1 34:1 34:0 42:0 29:0
+YDOTOOL_SOCKET='/tmp/.ydotool_socket'  ydotool key 29:1 49:1 49:0 29:0
